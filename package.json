@@ -1,0 +1,34 @@
+{
+  "name": "tru_readfile",
+  "version": "0.1.0",
+  "description": "read a file line by line, get a synchronous tasks with lines[] or perform async tasks on each line readed",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas78180/tru_readfile.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "ts",
+    "fileReader"
+  ],
+  "author": "Thomas Rudrauf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas78180/tru_readfile/issues"
+  },
+  "homepage": "https://github.com/Thomas78180/tru_readfile#readme",
+  "devDependencies": {
+    "typescript": "^3.4.3",
+    "@types/node": "^11.13.5"
+  },
+  "engines": {
+    "node": ">= 10"
+  }
+}
