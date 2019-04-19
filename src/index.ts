@@ -24,7 +24,7 @@ export default class ReadFile {
             }
 
             rl.pause()
-            options.onLine(line, rl.resume);
+            options.onLine(line, () => {rl.resume()});
         })
         .on('close', () => {
             if(!options.onLine) {
