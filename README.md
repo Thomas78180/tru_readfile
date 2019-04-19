@@ -65,7 +65,7 @@ new ReadFile({
     onSuccess: (lines: string[]) => {
         console.log(lines);
     },
-    onError: (err) => {
+    onError: (err: ErrorEvent) => {
         throw err;
     }
 });
@@ -74,7 +74,7 @@ new ReadFile({
 new ReadFile({
     path: 'myFile.txt',
     onLine: (line: string, resume(): void) => {
-    
+
         // async task
         setTimeout(() => {
             console.log('new line: '+line);

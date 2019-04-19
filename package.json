@@ -1,6 +1,6 @@
 {
   "name": "tru_readfile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "read a file line by line, get a synchronous tasks with lines[] or perform async tasks on each line readed",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -16,7 +16,7 @@
     "node",
     "typescript",
     "ts",
-    "fileReader"
+    "FileReader"
   ],
   "author": "Thomas Rudrauf",
   "license": "ISC",
