@@ -57,8 +57,6 @@ new ReadFile({
 ```typescript
 import ReadFile from 'tru_readfile';
 
-var ReadFile = require('tru_readfile');
-
 // get all lines
 new ReadFile({
     path: 'myFile.txt',
